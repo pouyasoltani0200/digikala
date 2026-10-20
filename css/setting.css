@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../fonts/iranyekanwebregular.woff);
+}
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/Vazirmatn-ExtraBold.ttf);
+}
+@font-face {
+  font-family: lale;
+  src: url(../fonts/Lalezar-Regular.woff);
+}
+.wrapper {
+  width: 100%;
+}
+:root {
+  --font-family: iranyekan;
+  --font-number: vazir;
+  --font-family2: lale;
+}
+body{
+  min-height: 20000px;
+}
+.rounded-right-amazing-slider{
+  border-radius: 0 8px 8px 0 ;
+}
+.rounded-left-amazing-slider{
+  border-radius:8px 0 0 8px;
+}
+
+.amzing-slider-bg-change{
+  background-color: #81B845 !important;
+}

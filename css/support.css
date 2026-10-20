@@ -1,0 +1,16 @@
+.support {
+  position: fixed;
+  left: 25px;
+  bottom: 25px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  z-index: 20;
+  img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

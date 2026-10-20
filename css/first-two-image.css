@@ -1,0 +1,18 @@
+.first-two-image{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+    .first-two-image-center{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .first-two-image-center-item{            
+            img{
+                width: 645px;
+                height: 250px;
+                border-radius: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.favarite-brands {
+  width: 100%;
+  height: 220px;
+  margin-top: 30px;
+  .favarite-brands-center {
+    position: relative;
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    box-shadow: 0 0 1px lightgray;
+    .favarite-brand-center-top {
+      display: flex;
+      column-gap: 7px;
+      padding: 15px;
+      padding-right: 25px;
+      h1 {
+        font-family: var(--font-family);
+        font-size: 19px;
+        font-weight: bold;
+      }
+    }
+    .favarite-brands-center-buttom {
+      margin-top: 10px;
+      overflow: hidden;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .favarite-brands-product {
+        width: 95px;
+        height: auto;
+        border: 1px solid lightgray;
+        border-radius: 6px;
+        box-shadow: 0 0 2px lightgray;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        row-gap: 15px;
+        img {
+          padding: 7px;
+          width: 78px;
+          height: 78px;
+          object-fit: cover;
+        }
+        p {
+          font-family: var(--font-number);
+          font-size: 13px;
+          color: #5b5b5b;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

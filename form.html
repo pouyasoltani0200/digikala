@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 35%;
+        padding: 30px;
+        box-shadow: 0 0 25px #2b2b2b;
+        box-sizing: border-box;
+        border-radius: 16px;
+        background-color: #2b2b2b;
+        color: whitesmoke;
+        margin: 50px auto;
+        label {
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          display: block;
+          height: 35px;
+          width: 300px;
+          padding-left: 20px;
+          outline: none;
+          transition: 300ms;
+          &:focus{
+            width: 100%;
+            transition: 300ms;
+          }
+          &::placeholder{
+            color:lime;
+            font-weight: bold;
+            text-transform: capitalize;
+          }
+          &:focus::placeholder{
+            background-color: maroon;
+          }
+        }
+        textarea{
+            height: 150px;
+            margin-bottom: 10px;
+            resize: none;
+        }
+        input[type=submit]{
+            height: 35px;
+            background-color: green;
+            color: whitesmoke;
+            border: none;
+            text-transform:capitalize;
+            font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="username">username</label>
+      <input type="text" id="username" placeholder="username" />
+      <label for="email">email</label>
+      <input type="email" id="email" placeholder="email" /><label for="comment"
+        >comment</label
+      >
+      <textarea name="" id="comment" placeholder="comment"></textarea>
+      <input type="submit" value="register" />
+    </form>
+  </body>
+</html>

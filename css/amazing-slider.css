@@ -1,0 +1,175 @@
+.amazing-slider {
+  width: 100%;
+  height: 325px;
+  margin-bottom: 30px;
+  .amazing-slider-center {
+    height: 100%;
+    max-width: 1300px;
+    background-color: #C43E51;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    .amazing-slider-center-right {
+      padding: 20px;
+      display: flex;
+      flex-flow: column wrap;
+      row-gap: 20px;
+      align-items: center;
+      justify-content: center;
+      .amazing-slider-center-right-clock {
+        display: flex;
+        flex-flow: row-reverse;
+        column-gap: 5px;
+        align-items: center;
+        .amazing-slider-center-right-clock-colmn {
+          color: whitesmoke;
+        }
+        .amazing-slider-center-right-clock-hours,
+        .amazing-slider-center-right-clock-minute,
+        .amazing-slider-center-right-clock-seconde {
+          font-family: var(--font-number);
+          padding: 5px;
+          background-color: #ffffff;
+          border-radius: 6px;
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+      .amazing-slider-center-right-button {
+        button {
+          border: none;
+          column-gap: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 7px 10px;
+          border-radius: 6px;
+          background-color: #f2f3f5;
+          p {
+            font-family: var(--font-family);
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .amazing-slider-center-left {
+      overflow: hidden;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .my-amazing-slider {
+        padding: 20px 0 20px 20px;
+      }
+    }
+  }
+}
+.amazing-slider-product {
+  width: 165px;
+  height: 285px;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: white;
+  .amazing-slider-product-image {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    
+    .amazing-slider-product-image-img {
+      width: 100%;
+      height: 100%;
+      
+    }
+  }
+  .amazing-slider-product-p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: right;
+  }
+  .amazing-slider-product-off {
+    padding-left: 11px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row-reverse;
+    align-items: center;
+    margin-left: 10px;
+    column-gap: 7px;
+    .amazing-slider-product-off-old-price {
+      color: grey;
+      text-decoration: line-through;
+      font-family: var(--font-number);
+      font-size: 14px;
+    }
+    .amazing-slider-product-off-discount {
+      width: 34px;
+      height: 16px;
+      background-color: #c43e51;
+      border-radius: 10px;
+      font-size: 12px;
+      color: white;
+      font-family: var(--font-number);
+    }
+  }
+  .amazing-slider-product-real-price {
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 3px;
+    p {
+      font-family: var(--font-number);
+      color: black;
+      font-size: 19px !important;
+    }
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+.swiper-button-amazing-slider {
+  display: flex;
+}
+.swiper-button-next-amazing-slider,
+.swiper-button-prev-amazing-slider {
+  width: 44px;
+  height: 44px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  svg {
+    display: none;
+  }
+}
+.swiper-button-prev-amazing-slider{
+  position: absolute !important;
+  right: 10px !important;
+}
+.swiper-button-next-amazing-slider{
+  position: absolute !important;
+  left: 20px !important;
+}
