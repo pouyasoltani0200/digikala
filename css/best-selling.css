@@ -2,9 +2,9 @@
   width: 100%;
   margin-bottom: 30px;
   margin-top: 30px;
-  border: 1px solid lightgray;
-  border-radius: 16px;
   .best-selling-center {
+    border: 1px solid lightgray;
+    border-radius: 16px;
     max-width: 1300px;
     height: 100%;
     margin: 0 auto;

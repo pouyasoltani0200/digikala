@@ -23,9 +23,6 @@
   --font-number: vazir;
   --font-family2: lale;
 }
-body{
-  min-height: 20000px;
-}
 .rounded-right-amazing-slider{
   border-radius: 0 8px 8px 0 ;
 }
