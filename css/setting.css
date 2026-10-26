@@ -18,6 +18,9 @@
 .wrapper {
   width: 100%;
 }
+body{
+  min-height: 4000px;
+}
 :root {
   --font-family: iranyekan;
   --font-number: vazir;

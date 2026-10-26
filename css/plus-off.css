@@ -1,0 +1,78 @@
+.plus-off {
+  width: 100%;
+  margin-top: 10px;
+  .plus-off-center {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 16px;
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eae5ea;
+    .plus-off-center-left {
+        display: flex;
+        flex-flow: column;
+        row-gap: 10px;
+        margin-left: 15px;
+      .plus-off-center-left-top {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        p {
+          color: blueviolet;
+          font-size: 14px;
+          font-family: var(--font-number);
+        }
+      }
+      .plus-off-center-left-bottom{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        .plus-off-center-left-bottom-right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 10px;
+            .plus-off-right-item{
+                width: 40px;
+                height: 50px;
+                background-color: whitesmoke;
+                border-radius: 8px;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: center;
+                .plus-off-right-item-p1{
+                    color: blueviolet;
+                    font-family: var(--font-number);
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                .plus-off-right-item-p2{
+                    color: blueviolet;
+                    font-family: var(--font-family);
+                    font-size: 8px;
+                }
+            }
+        }
+        .plus-off-center-left-bottom-left{
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            p{
+                color: blueviolet;
+                font-family: var(--font-number);
+                font-size: 14px;
+            }
+            img{
+                display: block;
+                width: 15px;
+                height: 15px;
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.amazing-pg-more-category {
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+.amazing-pg-more-category .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: fit-content;
+  height: fit-content;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.amazing-pg-more-category .amazing-pg-more-category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.amazing-pg-more-category .amazing-pg-more-category-item img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.amazing-pg-more-category .amazing-pg-more-category-item p {
+  margin: 0;
+  padding-top: 10px;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.amazing-pg-more-category .my-amazing-pg-more-category{
+  height: fit-content;
+}
