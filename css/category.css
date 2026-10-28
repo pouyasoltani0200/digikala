@@ -20,7 +20,7 @@
         height: 52px;
       }
       p {
-        font-family: var(--font-family);
+        font-family: var(--font-number);
         font-size: 11px;
         color: #2b2b2b;
         font-weight: bold;

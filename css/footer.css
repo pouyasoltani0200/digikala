@@ -1,11 +1,9 @@
 .digikala-footer {
   width: 100%;
-  max-width: 1900px;
+  max-width: 2000px;
   margin: 0 auto;
   background-color: #ffffff;
   color: #3f4064;
-  direction: rtl;
-  box-sizing: border-box;
   overflow: hidden;
 }
 

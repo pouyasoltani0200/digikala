@@ -61,10 +61,11 @@
                 width: 22px;
                 height: 22px;
                 border-radius: 50%;
-                font-size: 15px;
+                font-size: 13px;
                 color: white;
                 font-family: var(--font-number);
                 font-weight: bold;
+                padding: 0 11px;
               }
               .decrition {
                 width: fit-content;
